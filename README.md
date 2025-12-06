@@ -30,5 +30,5 @@ My goal is not just to "use" the cloud, but to engineer secure, scalable, and au
 *   **Build in Public:** Documenting the process, the errors, and the solutions.
 
 ---
-*Created by [Nicolas Casanova] - Aspiring Cloud Security Engineer*
+*Created by Nicolas Casanova - Aspiring Cloud Security Engineer*
 
