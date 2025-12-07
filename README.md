@@ -17,14 +17,14 @@ My goal is not just to "use" the cloud, but to engineer secure, scalable, and au
 
 ## 📂 Repository Structure
 
-| Week | Focus | Key Projects | Status |
-| :--- | :--- | :--- | :--- |
-| **01** | **Foundation & IaC** | Secure VPC deployment with Terraform, IAM Roles & Instance Profiles | ✅ Completed |
-| **02** | **Security Automation** | Python scripts for vulnerability scanning (Boto3) | 🚧 In Progress |
-| **03** | **AI Security** | Integrating Amazon Bedrock & Nova 2 | 📅 Upcoming |
-| **04-12**| **Enterprise Projects** | MLSecOps, GRC Automation, Threat Detection | 📅 Upcoming |
+| Week | Focus | Key Projects | **Project Link** | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **01** | **Foundation & IaC** | Secure VPC deployment with Terraform, IAM Roles & Instance Profiles | [Project 1](https://github.com/nik129linux/AI-Cloudsecurity/tree/main/Week-1-AWS-Infrastructure) | ✅ Completed |
+| **02** | **Security Automation** | Python scripts for vulnerability scanning (Boto3) |🔗  | 🚧 In Progress |
+| **03** | **AI Security** | Integrating Amazon Bedrock & Nova 2 | 🔗 | 📅 Upcoming |
+| **04-12**| **Enterprise Projects** | MLSecOps, GRC Automation, Threat Detection | 🔗 | 📅 Upcoming |
 
-## 💡 Philosophy
+## 💡 My mindset
 *   **Identity First:** No hardcoded keys. Always use IAM Roles and ephemeral credentials.
 *   **Immutable Infrastructure:** Never click in the console. If it's not in Terraform, it doesn't exist.
 *   **Build in Public:** Documenting the process, the errors, and the solutions.
