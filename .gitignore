@@ -1,23 +1,89 @@
+# ---------------------------------------------------------
+# TERRAFORM GITIGNORE
+# ---------------------------------------------------------
+
 # Local .terraform directories
 **/.terraform/*
 
-# .tfstate files (CONTIENEN SECRETOS - NO SUBIR)
+# .tfstate files
 *.tfstate
 *.tfstate.*
 
 # Crash log files
 crash.log
-crash.*
+crash.*.log
 
 # Exclude all .tfvars files, which are likely to contain sensitive data
-# such as password, private keys, and other secrets.
 *.tfvars
 *.tfvars.json
 
+# Ignore override files as they are usually used to override resources locally
 override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
 
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+*tfplan*
+
+# Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# ---------------------------------------------------------
+# ENVIRONMENT AND SECRETS
+# ---------------------------------------------------------
+
+# Environment variables
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ---------------------------------------------------------
+# CLOUD PROVIDER SPECIFIC
+# ---------------------------------------------------------
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# GCP
+.gcp/
+*.json
+!terraform.tfvars.example
+
+# ---------------------------------------------------------
+# LOGS AND TEMPORARY FILES
+# ---------------------------------------------------------
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.terraform.lock.hcl.backup
+
+# ---------------------------------------------------------
+# INFRACODEBASE SPECIFIC
+# ---------------------------------------------------------
+
+# Diagram files (generated)
+.infracodebase/
