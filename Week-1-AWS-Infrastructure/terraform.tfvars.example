@@ -1,0 +1,34 @@
+# ---------------------------------------------------------
+# TERRAFORM VARIABLES EXAMPLE
+# Copy this file to terraform.tfvars and customize values
+# ---------------------------------------------------------
+
+# Basic Configuration
+aws_region   = "us-east-1"
+environment  = "dev"
+project_name = "nico-lab"
+
+# Network Configuration
+vpc_cidr = "10.0.0.0/16"
+
+# Instance Configuration
+instance_type = "t3.micro"
+
+# Security Configuration (IMPORTANT: Restrict in production!)
+allowed_ssh_cidrs = [
+  "203.0.113.0/32",  # Replace with your public IP
+  # "198.51.100.0/24", # Replace with your corporate network
+]
+
+# Monitoring
+enable_detailed_monitoring = true
+enable_flow_logs          = true
+
+# Tags
+common_tags = {
+  Owner       = "nico-security"
+  Environment = "development"
+  ManagedBy   = "terraform"
+  Project     = "infrastructure-lab"
+  CostCenter  = "engineering"
+}
