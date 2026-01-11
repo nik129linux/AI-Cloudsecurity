@@ -1,0 +1,16 @@
+{
+    "AccessKeyMetadata": [
+        {
+            "UserName": "rotation-lab-user",
+            "AccessKeyId": "AKIA_REDACTED_ZIGI",
+            "Status": "Inactive",
+            "CreateDate": "2025-12-30T16:56:04+00:00"
+        },
+        {
+            "UserName": "rotation-lab-user",
+            "AccessKeyId": "AKIA_REDACTED_JDZF",
+            "Status": "Active",
+            "CreateDate": "2026-01-09T14:48:57+00:00"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+  "started_at": "2026-01-08T18:47:27.372045+00:00",
+  "run_id": "20260108T184727Z",
+  "inputs": {
+    "user_name": "rotation-lab-user",
+    "secret_id": "lab/iam/rotation-lab-user",
+    "region": "us-east-1",
+    "max_keys": 2,
+    "dry_run": true,
+    "deactivate_old": false,
+    "delete_old": false
+  },
+  "caller_identity": {
+    "Account": "220197469675",
+    "Arn": "arn:aws:iam::220197469675:user/rotation-lab-user",
+    "UserId": "AIDATGRGKXXVTDGNVQTRR"
+  },
+  "precheck": {
+    "existing_keys_count": 2,
+    "existing_keys": [
+      {
+        "AccessKeyId": "AKIA_REDACTED_SCO3",
+        "Status": "Active",
+        "CreateDate": "2025-12-26T16:56:42+00:00"
+      },
+      {
+        "AccessKeyId": "AKIA_REDACTED_ZIGI",
+        "Status": "Active",
+        "CreateDate": "2025-12-30T16:56:04+00:00"
+      }
+    ]
+  },
+  "actions": {},
+  "result": {
+    "status": "ABORT_TOO_MANY_KEYS",
+    "message": "User has 2 keys; max allowed is 2."
+  },
+  "errors": [],
+  "finished_at": "2026-01-08T18:47:28.164204+00:00"
+}
