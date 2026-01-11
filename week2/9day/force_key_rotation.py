@@ -126,7 +126,7 @@ def main() -> int:
 
     args = ap.parse_args()
 
-    if args.delete_old and args.c000000000000000000000000000000000000000000000000000000000000000000000000onfirm_delete != "DELETE":
+    if args.delete_old and args.confirm_delete != "DELETE":
         print('REFUSING: --delete-old requires --confirm-delete DELETE', file=sys.stderr)
         return 2
 
