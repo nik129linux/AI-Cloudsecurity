@@ -66,7 +66,7 @@ Thumbs.db
 
 # GCP
 .gcp/
-*.json
+
 !terraform.tfvars.example
 
 # ---------------------------------------------------------
@@ -87,3 +87,10 @@ Thumbs.db
 
 # Diagram files (generated)
 .infracodebase/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
