@@ -94,3 +94,16 @@ __pycache__/
 .venv/
 venv/
 .pytest_cache/
+backend.hcl
+
+# Terraform
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/crash.log
+**/crash.*.log
+**/*.tfvars
+**/*.tfvars.json
+
+# Local backend config (DO NOT COMMIT)
+backend.hcl
