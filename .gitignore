@@ -107,3 +107,6 @@ backend.hcl
 
 # Local backend config (DO NOT COMMIT)
 backend.hcl
+
+#STATEFILE
+STATEFILE.md
